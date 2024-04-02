@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: 'Maison Neue Bold';
+    src: url('fonts/MaisonNeueBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Demi';
+    src: url('fonts/MaisonNeueDemi.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Medium';
+    src: url('fonts/MaisonNeueMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Book';
+    src: url('/fonts/MaisonNeueBook.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Book Italic';
+    src: url('fonts/MaisonNeueBookItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Light';
+    src: url('fonts/MaisonNeueLight.otf') format('opentype');
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+/* NAVIGATION */
+
+nav a{
+    font-family: 'Maison Neue Book';
+    text-decoration: none;
+    font-size: 20px;
+    color: #171717;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-bar a{ 
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.name{
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 30px;  
+}
+
+  
