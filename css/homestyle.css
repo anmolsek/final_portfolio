@@ -114,6 +114,73 @@ p{
     max-width: 500px;
 }
 
+/* WORK */
+
+.work-title{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 400px;
+}
+
+.work-title p{
+    color: #636363;
+}
+
+h3{
+    font-family: 'Maison Neue Book';
+    text-decoration: none;
+    font-size: 24px;
+    color: #5E5EFF;
+    margin: 0;
+    padding: 0;
+}
+
+.content a{
+    font-family: 'Maison Neue Demi';
+    text-decoration: none;
+    font-size: 36px;
+    color: #171717;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    max-width: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.content a:hover{
+    text-decoration: underline;
+}
+
+h5{
+    font-family: 'Maison Neue Book Italic';
+    text-decoration: none;
+    font-size: 24px;
+    color: #171717;
+    margin: 0;
+    padding: 0;
+}
+
+
+.work-one{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 275px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.work-two{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
 
 
   
