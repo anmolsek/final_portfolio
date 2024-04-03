@@ -152,7 +152,7 @@ h3{
     text-decoration: underline;
 }
 
-h5{
+h4{
     font-family: 'Maison Neue Book Italic';
     text-decoration: none;
     font-size: 24px;
@@ -179,6 +179,43 @@ h5{
     margin: 0 auto;
     align-items: center;
 }
+
+/* FOOTER */
+
+.horizontal-line {
+    border: none; 
+    border-top: 1.5px solid #171717; 
+    margin: 10px 0; 
+}
+
+.footer, .footer a, .footer h5{
+    font-family: 'Maison Neue Book';
+    text-decoration: none;
+    font-size: 20px;
+    color: #171717;
+    margin: 0;
+    padding: 0;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+}
+
+footer{
+    padding-top: 400px;
+}
+
+.footer-right a{
+    padding-right: 15px;
+}
+
+
 
 
 
