@@ -4,32 +4,32 @@
 
 @font-face {
     font-family: 'Maison Neue Bold';
-    src: url('/fonts/MaisonNeueBold.otf') format('opentype');
+    src: url('../fonts/MaisonNeueBold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Maison Neue Demi';
-    src: url('/fonts/MaisonNeueDemi.otf') format('opentype');
+    src: url('../fonts/MaisonNeueDemi.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Maison Neue Medium';
-    src: url('/fonts/MaisonNeueMedium.otf') format('opentype');
+    src: url('../fonts/MaisonNeueMedium.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Maison Neue Book';
-    src: url('/fonts/MaisonNeueBook.otf') format('opentype');
+    src: url('../fonts/MaisonNeueBook.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Maison Neue Book Italic';
-    src: url('/fonts/MaisonNeueBookItalic.otf') format('opentype');
+    src: url('../fonts/MaisonNeueBookItalic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Maison Neue Light';
-    src: url('/fonts/MaisonNeueLight.otf') format('opentype');
+    src: url('../fonts/MaisonNeueLight.otf') format('opentype');
 }
 
 body{
