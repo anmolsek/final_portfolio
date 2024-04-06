@@ -57,6 +57,14 @@ nav{
     padding-top: 30px;
 }
 
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+
+.name a:hover{
+    color: #5E5EFF;
+}
+
 .name{
     display: inline-block;
     padding-left: 50px;
