@@ -206,6 +206,70 @@ p{
     text-align: right;
 }
 
+/* PART THREE - PERSONAS & BRAINSTOMRING DESIGNS */
+
+.part-three{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.three-section-A,.three-section-B, .three-section-C{
+    padding-top: 30px;
+}
+
+.three-section-B{
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-section-C{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.three-section-C p{
+    max-width: 450px;
+}
+
+.part-three h2{
+    padding-bottom: 30px;
+}
+
+/* PART FOUR - PROTOTYPE & USABILITY TESTING */
+
+.part-four{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.four-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.four-section p{
+    max-width: 450px;
+}
+
+.four-section h2{
+    padding-bottom: 30px;
+}
+
+.four-section img{
+    display: block; /* Ensure the image is treated as a block element */
+    max-width: 99%; /* Adjust this value to scale down the image as needed */
+    height: auto; /* This ensures the aspect ratio is maintained */
+}
+
+
+
 
 
 
