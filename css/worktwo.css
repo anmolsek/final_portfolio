@@ -196,3 +196,111 @@ p{
 .two-bottom img{
     padding-top: 30px;
 }
+
+/* PART THREE - DESIGNING & CODING */
+
+.part-three{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.part-three h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.three-top p, .three-bottom p{
+    max-width: 450px;
+}
+
+.part-three img{
+    padding-top: 30px;
+}
+
+.three-top, .three-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* PART FOUR - RESPONSIVENESS CONCLUSION */
+
+.part-four{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.part-four h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.part-four img{
+    padding-top: 30px;
+}
+
+.four-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* PART FIVE - REFLECTION */
+
+.part-five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.part-five p{
+    max-width: 450px;
+}
+
+/* FOOTER */
+
+.footer-line {
+    border: none; 
+    border-top: 1.5px solid #171717; 
+    margin: 10px 0; 
+}
+
+.footer, .footer a, .footer h5{
+    font-family: 'Maison Neue Book';
+    text-decoration: none;
+    font-size: 20px;
+    color: #171717;
+    margin: 0;
+    padding: 0;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+}
+
+footer{
+    padding-top: 400px;
+}
+
+.footer-right a{
+    padding-right: 15px;
+}
+
+
+
+
+
+
