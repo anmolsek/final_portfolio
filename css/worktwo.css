@@ -163,10 +163,10 @@ p{
 }
 
 .one-bottom img {
-    display: block; /* Ensure the image is treated as a block element */
-    margin: 0 auto; /* Center the image horizontally */
-    max-width: 90%; /* Adjust this value to scale down the image as needed */
-    height: auto; /* This ensures the aspect ratio is maintained */
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto; 
     padding-bottom: 10px;
 }
 

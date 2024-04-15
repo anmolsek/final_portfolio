@@ -163,10 +163,10 @@ p{
 }
 
 .one-bottom img {
-    display: block; /* Ensure the image is treated as a block element */
-    margin: 0 auto; /* Center the image horizontally */
-    max-width: 90%; /* Adjust this value to scale down the image as needed */
-    height: auto; /* This ensures the aspect ratio is maintained */
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
     padding-bottom: 10px;
 }
 
@@ -204,6 +204,7 @@ p{
     color: #f1f1f1;
     align-items: flex-end;
     text-align: right;
+    padding-top: 20px;
 }
 
 /* PART THREE - PERSONAS & BRAINSTOMRING DESIGNS */
@@ -263,9 +264,9 @@ p{
 }
 
 .four-section img{
-    display: block; /* Ensure the image is treated as a block element */
-    max-width: 99%; /* Adjust this value to scale down the image as needed */
-    height: auto; /* This ensures the aspect ratio is maintained */
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* PART FIVE - PUTTING THIS ALL TOGETHER AND CONCLUSION */
