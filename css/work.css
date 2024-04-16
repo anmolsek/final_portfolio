@@ -102,6 +102,7 @@ p{
 
 .overview{
     display: flex;
+    
     flex-direction: column;
     max-width: 1000px;
     margin: 0 auto;
@@ -110,6 +111,7 @@ p{
 .project-details{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 30px;
 }
@@ -144,6 +146,7 @@ p{
 .part-one{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -159,6 +162,7 @@ p{
 
 .one-top{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -212,27 +216,37 @@ p{
 .part-three{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .three-section-A,.three-section-B, .three-section-C{
     padding-top: 30px;
+    
 }
 
 .three-section-B{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .three-section-C{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 .three-section-C p{
-    max-width: 450px;
+    max-width: 400px;
+}
+
+.three-section-C img {
+    max-width: 100%; /* Added to make images responsive */
+    height: auto; /* Added to maintain aspect ratio */
+    margin-bottom: 15px; /* Added to create space between images */
 }
 
 .part-three h2{
@@ -244,12 +258,14 @@ p{
 .part-four{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .four-section{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 30px;
@@ -285,6 +301,7 @@ p{
 .part-six{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
@@ -329,6 +346,49 @@ footer{
 .footer-right a{
     padding-right: 15px;
 }
+
+/* RESPONSIVENESS */
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+
+    .part-six h2{
+        padding-bottom: 30px;
+    }
+
+    .detail h2{
+        padding-top: 20px;
+    }
+
+    .overview,
+    .part-one,
+    .part-two,
+    .part-three,
+    .part-four,
+    .part-five,
+    .part-six{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .three-section-C img {
+        max-width: 90%; 
+        height: auto; 
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .footer a,
+    .footer h5 {
+        margin-bottom: 10px; 
+    }
+}
+
+
 
 
 

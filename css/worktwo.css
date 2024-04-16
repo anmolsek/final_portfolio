@@ -110,6 +110,7 @@ p{
 .project-details{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 30px;
 }
@@ -144,6 +145,7 @@ p{
 .part-one{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -159,6 +161,7 @@ p{
 
 .one-top{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -186,15 +189,20 @@ p{
 
 .two-bottom{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .two-bottom p{
-    max-width: 450px;
+    max-width: 400px;
 }
 
 .two-bottom img{
     padding-top: 30px;
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 /* PART THREE - DESIGNING & CODING */
@@ -212,17 +220,29 @@ p{
 }
 
 .three-top p, .three-bottom p{
-    max-width: 450px;
+    max-width: 400px;
 }
 
 .part-three img{
     padding-top: 30px;
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 .three-top, .three-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.three-top{
+    flex-wrap: wrap;
+}
+
+.three-bottom{
+    flex-wrap: wrap-reverse;
 }
 
 /* PART FOUR - RESPONSIVENESS CONCLUSION */
@@ -241,10 +261,19 @@ p{
 
 .part-four img{
     padding-top: 30px;
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;
+}
+
+.four-top p{
+    max-width: 400px;
 }
 
 .four-top{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -254,6 +283,7 @@ p{
 .part-five{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
@@ -297,6 +327,39 @@ footer{
 
 .footer-right a{
     padding-right: 15px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+
+    .part-five h2{
+        padding-bottom: 30px;
+    }
+
+    .detail h2{
+        padding-top: 20px;
+    }
+
+    .overview,
+    .part-one,
+    .part-two,
+    .part-three,
+    .part-four,
+    .part-five{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .footer a,
+    .footer h5 {
+        margin-bottom: 10px; 
+    }
 }
 
 

@@ -228,6 +228,10 @@ footer{
     padding-right: 15px;
 }
 
+
+
+
+
 /* RESPONSIVENESS */
 
 @media screen and (min-width: 500px) {
@@ -251,6 +255,17 @@ footer{
     .intro {
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .footer a,
+    .footer h5 {
+        margin-bottom: 10px; 
     }
 }
 
