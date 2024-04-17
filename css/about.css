@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: 'Maison Neue Bold';
+    src: url('../fonts/MaisonNeueBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Demi';
+    src: url('../fonts/MaisonNeueDemi.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Medium';
+    src: url('../fonts/MaisonNeueMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Book';
+    src: url('../fonts/MaisonNeueBook.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Book Italic';
+    src: url('../fonts/MaisonNeueBookItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maison Neue Light';
+    src: url('../fonts/MaisonNeueLight.otf') format('opentype');
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+/* NAVIGATION */
+
+nav a{
+    font-family: 'Maison Neue Book';
+    text-decoration: none;
+    font-size: 20px;
+    color: #171717;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-bar a{ 
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+
+.name a:hover{
+    color: #5E5EFF;
+}
+
+.name{
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 30px;  
+}
+
+/* BIO */
+
+h1{
+    font-family: 'Maison Neue Demi';
+    text-decoration: none;
+    font-size: 50px;
+    color: #5E5EFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bio img{
+    max-width: 100%;
+    max-height: 500px; 
+    width: auto; 
+    height: auto; 
+}
+
+p{
+    font-family: 'Maison Neue Book';
+    text-decoration: none;
+    font-size: 25px;
+    color: #171717;
+    margin: 0;
+    padding: 0;
+}
+
+.bio{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding-top: 150px;
+}
+
+.bio-info{
+    padding-left: 30px;
+}
+
+.bio p{
+    padding-top: 30px;
+}
+
+/* CONNECT */
+
+h2{
+    font-family: 'Maison Neue Demi';
+    text-decoration: none;
+    font-size:40px;
+    color: #171717;
+    margin: 0;
+    padding: 0;
+}
+
+.connect a{
+    font-family: 'Maison Neue Book';
+    text-decoration: none;
+    font-size:25px;
+    color: #171717;
+    margin: 0;
+    padding: 0;
+}
+
+.connect a:hover{
+    text-decoration: underline;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding-top: 140px;
+}
+
+.connect h2{
+    display: block;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+
+}
+
